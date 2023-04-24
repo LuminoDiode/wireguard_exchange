@@ -1,0 +1,8 @@
+{
+    "backend":{
+        "host":"https://wireguard-exchange.bruhcontent.ru",
+        "basePath":"/api", 
+        "peersControllerPath":"/peers",
+        "statusControllerPath":"/status"
+    }
+}

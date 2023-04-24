@@ -1,0 +1,38 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button {
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    border-radius: 3px;
+    font-family: "Roboto";
+}
+
+@media (orientation: landscape) {
+    .button {
+        font-size: 32px;
+    }
+}
+
+@media (orientation: portrait) {
+    .button {
+        font-size: 46px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.buttonUnselected {
+    border: 2px solid gray;
+    font-weight: 400;
+}
+
+.buttonSelected {
+    border: 3px solid blueviolet;
+    font-weight: 600;
+}

@@ -1,0 +1,69 @@
+::placeholder {
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.pubkeyInput {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.generateButton {
+    width: 100%;
+    font-size: 24px;
+    padding: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.configOutput {
+    font-size: 16px;
+    padding: 3px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    resize: none;
+    white-space: pre;
+    overflow-wrap: normal;
+    overflow-x: scroll;
+}
+
+@media (orientation: landscape) {
+    .pubkeyInput {
+        font-size: 20px;
+    }
+    .generateButton {
+        font-size: 24px;
+    }
+    .configOutput {
+        font-size: 16px;
+    }
+}
+
+@media (orientation: portrait) {
+    .pubkeyInput {
+        font-size: 32px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .generateButton {
+        font-size: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .configOutput {
+        font-size: 32px;
+    }
+}

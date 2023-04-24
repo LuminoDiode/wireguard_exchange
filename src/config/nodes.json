@@ -1,0 +1,20 @@
+[
+    {
+        "Id": 0,
+        "Name": "Amsterdam",
+        "IpAddress": "45.15.159.157",
+        "TlsUri":"/fordward/id0",
+        "WireguardPort": 52850,
+        "ApiTlsPort": 52851,
+        "ApiPort": 52852
+    },
+    {
+        "Id": 1,
+        "Name": "Frankfurt",
+        "IpAddress": "89.208.103.170",
+        "TlsUri":"/fordward/id1",
+        "WireguardPort": 52850,
+        "ApiTlsPort": 52851,
+        "ApiPort": 52852
+    }
+]
