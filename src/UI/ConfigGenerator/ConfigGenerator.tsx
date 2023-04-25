@@ -30,7 +30,7 @@ const ConfigGenerator: React.FC<IConfigGenerator> = (props) => {
             return;
         }
 
-        var result = await ApiHelper.PushPublicKeyAndCreateConfig(location, pubkey);
+        var result = await ApiHelper.PushPublicKeyAndCreateConfig(location, pubkey.trim());
 
         if (result === undefined || result === null || !result) {
             setConfig("There was a problem with pushing your key.");
@@ -39,7 +39,7 @@ const ConfigGenerator: React.FC<IConfigGenerator> = (props) => {
 
         try {
             if (Buffer.from(privkey, "base64").length === (256 / 8)) {
-                result = result.replace("INSERT_YOUR_PRIVATE_KEY_HERE", privkey);
+                result = result.replace("INSERT_YOUR_PRIVATE_KEY_HERE", privkey.trim());
             }
         } catch { }
 
