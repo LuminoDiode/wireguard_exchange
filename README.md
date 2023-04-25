@@ -6,7 +6,7 @@
 
 ## wireguard_exchange
 ### A simple UI for interaction with [rest2wg](https://github.com/LuminoDiode/rest2wireguard) containers network.
-Basically has no dependency on the containers number. They are only need to be predefined in [nodes.json](https://github.com/LuminoDiode/wireguard_exchange/blob/master/src/config/nodes.json) and [nginx.conf](https://github.com/LuminoDiode/wireguard_exchange/blob/master/build_alpine/pre-nginx.conf) for the forwarding. Currently running on the VPS: [wg-exchange.bruhcontent.ru](https://wireguard-exchange.bruhcontent.ru/).
+Basically has no dependency on the containers number. They are only need to be predefined in [nodes.json](https://github.com/LuminoDiode/wireguard_exchange/blob/master/src/config/nodes.json) and [nginx.conf](https://github.com/LuminoDiode/wireguard_exchange/blob/master/build_alpine/pre-nginx.conf) for the forwarding. Currently running on VPS: [wg-exchange.bruhcontent.ru](https://wireguard-exchange.bruhcontent.ru/).
 <p align="center" style="border:solid black">
   <kbd>
     <img src="https://i.imgur.com/KAn8wuG.png"/>
